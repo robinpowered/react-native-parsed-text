@@ -62,6 +62,7 @@ class ParsedText extends React.Component {
       return (
         <ReactNative.Text
           key={`parsedText-${index}`}
+          allowFontScaling={this.props.allowFontScaling}
           {...props}
         />
       );
